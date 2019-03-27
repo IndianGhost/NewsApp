@@ -13,12 +13,27 @@ export class AppComponent {
     {
       title: 'Home',
       url: '/home',
-      icon: 'home'
+      // icon: 'home'
     },
     {
-      title: 'List',
-      url: '/list',
-      icon: 'list'
+      title: 'New York Times',
+      url: '/nyt',
+      // icon: ''
+    },
+    {
+      title: 'The Guardian',
+      url: '/theguardian',
+      // icon: ''
+    },
+    {
+      title: 'BBC',
+      url: '/bbc',
+      // icon: ''
+    },
+    {
+      title: 'About',
+      url: '/about',
+      // icon: ''
     }
   ];
 
