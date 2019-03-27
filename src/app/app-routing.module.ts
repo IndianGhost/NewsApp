@@ -12,8 +12,20 @@ const routes: Routes = [
     loadChildren: './home/home.module#HomePageModule'
   },
   {
-    path: 'list',
-    loadChildren: './list/list.module#ListPageModule'
+    path: 'nyt',
+    loadChildren: './nyt/nyt.module#NytPageModule'
+  },
+  {
+    path: 'theguardian',
+    loadChildren: './theguardian/theguardian.module#TheguardianPageModule'
+  },
+  {
+    path: 'bbc',
+    loadChildren: './bbc/bbc.module#BbcPageModule'
+  },
+  {
+    path: 'about',
+    loadChildren: './about/about.module#AboutPageModule'
   }
 ];
 
